@@ -52,3 +52,12 @@ work:
       - date: "June 2020"
         position: "Different Position"
         description: "Different Description"
+
+projects:
+  - title: "Project 1"
+    date: "Some date"
+    description: "Some description"
+    link: "https://github.com/rutvora/rutvora.github.io"
+  - title: "Project 2"
+    date: "Some other date"
+    description: "Some other description"
