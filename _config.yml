@@ -33,3 +33,9 @@ markdown: kramdown
 
 sass:
 style: compressed
+
+# Work Timeline
+work:
+  - name: 2000's
+    events:
+    - October 2000: "🎂 Neil turns 10. It's a new millennium."
