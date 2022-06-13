@@ -36,6 +36,19 @@ style: compressed
 
 # Work Timeline
 work:
-  - name: 2000's
-    events:
-    - October 2000: "🎂 Neil turns 10. It's a new millennium."
+  - company: "Some company"
+    details:
+      - date: "October 2022"
+        position: "Your position"
+        description: "Some description"
+      - date: "June 2022"
+        position: "Different Position"
+        description: "Different Description"
+  - company: "Some other company"
+    details:
+      - date: "October 2020"
+        position: "Your position"
+        description: "Some description"
+      - date: "June 2020"
+        position: "Different Position"
+        description: "Different Description"
