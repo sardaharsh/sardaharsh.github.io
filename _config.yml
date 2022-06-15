@@ -15,18 +15,25 @@ phone: (716) 555-5555
 icon: fa-diamond # Font Awesome class for your site's icon
 remote_theme: andrewbanchich/dimension-jekyll-theme
 
-# Social settings
-facebook_url:
+# Research Links
+orcid_url: https://orcid.org/0000-0001-5064-1760
+googlescholar_url: https://scholar.google.com/citations?user=gB4ZP1MAAAAJ
+researchgate_url: https://www.researchgate.net/profile/Rut-Vora
+
+# Work Links
 github_url:
 gitlab_url: https://gitlab.com/u/andrewbanchich
-googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
-instagram_url:
 linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
-pinterest_url:
 slack_url:
-twitter_url: https://twitter.com/andrewbanchich
 blog_url: https://rutvora.blogspot.com
 youtube_url: https://www.youtube.com/channel/UCLaHH4xiZZADIYZ-SwTtY2w
+
+# Social Links
+facebook_url:
+googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
+instagram_url:
+pinterest_url:
+twitter_url: https://twitter.com/andrewbanchich
 
 # Build settings
 markdown: kramdown
