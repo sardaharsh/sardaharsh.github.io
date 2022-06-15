@@ -1,6 +1,9 @@
 # Site settings
 title: Dimension
-email: youremailaddress@gmail.com
+email: 
+  id: youremailaddress@gmail.com
+  show_on_home: true
+  show_in_contact: true
 description: A fully responsive site template designed by <a href="https://html5up.net">HTML5 UP</a> and released<br />for free under the <a href="https://html5up.net/license">Creative Commons</a> license.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
@@ -15,25 +18,69 @@ phone: (716) 555-5555
 icon: fa-diamond # Font Awesome class for your site's icon
 remote_theme: andrewbanchich/dimension-jekyll-theme
 
+# Email show config
+
 # Research Links
-orcid_url: https://orcid.org/0000-0001-5064-1760
-googlescholar_url: https://scholar.google.com/citations?user=gB4ZP1MAAAAJ
-researchgate_url: https://www.researchgate.net/profile/Rut-Vora
+orcid: 
+  url: https://orcid.org/0000-0001-5064-1760
+  show_on_home: true
+  show_in_contact: false
+googlescholar: 
+  url: https://scholar.google.com/citations?user=gB4ZP1MAAAAJ
+  show_on_home: true
+  show_in_contact: false
+researchgate: 
+  url: https://www.researchgate.net/profile/Rut-Vora
+  show_on_home: true
+  show_in_contact: false
 
 # Work Links
-github_url:
-gitlab_url: https://gitlab.com/u/andrewbanchich
-linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
-slack_url:
-blog_url: https://rutvora.blogspot.com
-youtube_url: https://www.youtube.com/channel/UCLaHH4xiZZADIYZ-SwTtY2w
+github: 
+  url: https://www.github.com/rutvora
+  show_on_home: true
+  show_in_contact: false
+gitlab: 
+  url: 
+  show_on_home: true
+  show_in_contact: false
+linkedin: 
+  url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
+  show_on_home: true
+  show_in_contact: false
+slack:
+  url:
+  show_on_home: true
+  show_in_contact: false
+blog: 
+  url: https://rutvora.blogspot.com
+  show_on_home: true
+  show_in_contact: false
+youtube: 
+  url: https://www.youtube.com/channel/UCLaHH4xiZZADIYZ-SwTtY2w
+  show_on_home: true
+  show_in_contact: false
 
 # Social Links
-facebook_url:
-googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
-instagram_url:
-pinterest_url:
-twitter_url: https://twitter.com/andrewbanchich
+facebook:
+  url: https://www.facebook.com/rutvora
+  show_on_home: false
+  show_in_contact: true
+googleplus:
+  url: 
+  show_on_home: false
+  show_in_contact: true
+instagram:
+  url: 
+  show_on_home: false
+  show_in_contact: true
+pinterest:
+  url: 
+  show_on_home: false
+  show_in_contact: true
+twitter:
+  url: 
+  show_on_home: false
+  show_in_contact: true
 
 # Build settings
 markdown: kramdown
