@@ -44,7 +44,7 @@ gitlab:
   show_on_home: true
   show_in_contact: false
 linkedin: 
-  url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
+  url: https://www.linkedin.com/in/rutvora
   show_on_home: true
   show_in_contact: false
 slack:
@@ -62,7 +62,7 @@ youtube:
 
 # Social Links
 facebook:
-  url: https://www.facebook.com/rutvora
+  url: 
   show_on_home: false
   show_in_contact: true
 googleplus:
