@@ -107,7 +107,7 @@ work:
         position: "Different Position"
         description: "Different Description"
 
-# Projects
+# Projects Timeline
 # Note: The <style> in Work is somehow also applied to Projects! So no need to apply again in the file
 projects:
   - title: "Project 1"
