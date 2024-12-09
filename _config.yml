@@ -6,8 +6,8 @@ email:
   show_in_contact: true
 description: >
   Software Developer
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://sardaharsh.github.io" # the base hostname & protocol for your site
+baseurl: "/" 
+url: "https://sardaharsh.github.io"
 author:
   street_address: Sarda Niwas, Vivekanand Nagar
   city: Parli
@@ -16,12 +16,9 @@ author:
   country: India
   phone: +91 9403324332
 
-icon: fa-diamond # Font Awesome class for your site's icon
+icon: fa-diamond
 remote_theme: andrewbanchich/dimension-jekyll-theme
 
-# Email show config
-
-# Work Links
 github:
   url: https://github.com/sardaharsh
   show_on_home: true
@@ -34,74 +31,17 @@ linkedin:
   url: https://www.linkedin.com/in/harsh-sarda-a01851239/
   show_on_home: true
   show_in_contact: true
-slack:
-  url: ""
-  show_on_home: false
-  show_in_contact: false
 leetcode:
   url: "https://leetcode.com/u/sardaharsh/"
   show_on_home: true
   show_in_contact: true
-
-# Social Links
-facebook:
-  url: ""
-  show_on_home: false
-  show_in_contact: false
-googleplus:
-  url: ""
-  show_on_home: false
-  show_in_contact: false
 instagram:
   url: https://www.instagram.com/sarda.harsh/
   show_on_home: true
   show_in_contact: true
-pinterest:
-  url: ""
-  show_on_home: false
-  show_in_contact: false
-twitter:
-  url: ""
-  show_on_home: false
-  show_in_contact: false
 
 # Build settings
 markdown: kramdown
 
 sass:
   style: compressed
-# # Work Timeline
-# work:
-#   - company: "Some company"
-#     details:
-#       - date: "October 2022"
-#         position: "Your position"
-#         description: "Some description"
-#       - date: "June 2022"
-#         position: "Different Position"
-#         description: "Different Description"
-#   - company: "Some other company"
-#     details:
-#       - date: "October 2020"
-#         position: "Your position"
-#         description: "Some description"
-#       - date: "June 2020"
-#         position: "Different Position"
-#         description: "Different Description"
-
-# # Projects Timeline
-# projects:
-#   - type: "Research"
-#     projects:
-#       - title: "Project 1"
-#         date: "Some date"
-#         description: "Some description"
-#         link: "https://github.com/rutvora/rutvora.github.io"
-#       - title: "Project 2"
-#         date: "Some other date"
-#         description: "Some other description"
-#   - type: "Development"
-#     projects:
-#       - title: "Project 3"
-#         date: "Date"
-#         description: "Description 3"
