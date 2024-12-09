@@ -6,12 +6,18 @@
 
 /* Icon */
 
-	.icon {
-		@include icon;
-		border-bottom: none;
-		position: relative;
+.icon {
+	@include icon;
+	border-bottom: none;
+	position: relative;
 
-		> .label {
-			display: none;
-		}
+	.label {
+		display: none;
 	}
+
+	/* Add spacing between the icon and the label */
+	.icon-spacing {
+		margin-right: 8px;
+		/* Adjust the value to increase/decrease the space */
+	}
+}

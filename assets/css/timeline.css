@@ -4,7 +4,13 @@
   padding: 0;
   width: 100%;
 }
-.timeline h1, .timeline h2, .timeline h3, .timeline h4, .timeline h5, .timeline h6 {
+
+.timeline h1,
+.timeline h2,
+.timeline h3,
+.timeline h4,
+.timeline h5,
+.timeline h6 {
   line-height: inherit;
 }
 
@@ -13,11 +19,14 @@
   line-height: 1.6em
 }
 
-#/*----- TIMELINE ITEM -----*/
+#
+
+/*----- TIMELINE ITEM -----*/
 .timeline-item {
   padding-left: 40px;
   position: relative;
 }
+
 .timeline-item:last-child {
   padding-bottom: 0;
 }
@@ -40,6 +49,7 @@
   left: 0;
   width: 15px;
 }
+
 .timeline-marker:before {
   background: #FF6B6B;
   border-radius: 100%;
@@ -52,6 +62,7 @@
   width: 15px;
   transition: background 0.3s ease-in-out, border 0.3s ease-in-out;
 }
+
 .timeline-marker:after {
   content: "";
   width: 3px;
@@ -62,6 +73,7 @@
   bottom: 0;
   left: 6px;
 }
+
 .timeline-item:last-child .timeline-marker:after {
   content: none;
 }
@@ -78,6 +90,7 @@
 .timeline-content {
   padding-bottom: 40px;
 }
+
 .timeline-content p:last-child {
   margin-bottom: 0;
 }
@@ -86,9 +99,11 @@
 .period {
   padding: 0;
 }
+
 .period .timeline-info {
   display: none;
 }
+
 .period .timeline-marker:before {
   background: transparent;
   content: "";
@@ -102,14 +117,17 @@
   border-top: 3px solid #CCD5DB;
   border-bottom: 3px solid #CCD5DB;
 }
+
 .period .timeline-marker:after {
   content: "";
   height: 32px;
   top: auto;
 }
+
 .period .timeline-content {
   padding: 40px 0 70px;
 }
+
 .period .timeline-title {
   margin: 0;
 }
@@ -118,10 +136,12 @@
   .timeline-split .timeline {
     display: table;
   }
+
   .timeline-split .timeline-item {
     display: table-row;
     padding: 0;
   }
+
   .timeline-split .timeline-info,
   .timeline-split .timeline-marker,
   .timeline-split .timeline-content,
@@ -129,17 +149,26 @@
     display: table-cell;
     vertical-align: top;
   }
+
   .timeline-split .timeline-marker {
     position: relative;
   }
+
   .timeline-split .timeline-content {
     padding-left: 30px;
   }
+
   .timeline-split .timeline-info {
     padding-right: 30px;
   }
+
   .timeline-split .period .timeline-title {
     position: relative;
     left: -45px;
   }
+}
+
+.icon-spacing {
+  margin-right: 8px;
+  /* Adjust the value to increase/decrease the space */
 }

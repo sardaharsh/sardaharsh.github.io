@@ -1,124 +1,107 @@
 # Site settings
-title: Dimension
-email: 
-  id: youremailaddress@gmail.com
+title: Harsh Sarda
+email:
+  id: harshsarda987@gmail.com
   show_on_home: true
   show_in_contact: true
-description: A fully responsive site template designed by <a href="https://html5up.net">HTML5 UP</a> and released<br />for free under the <a href="https://html5up.net/license">Creative Commons</a> license.
+description: >
+  Software Developer
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+url: "https://sardaharsh.github.io" # the base hostname & protocol for your site
 author:
-street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
-zip_code: 55555
-country: United States of America
-phone: (716) 555-5555
+  street_address: Sarda Niwas, Vivekanand Nagar
+  city: Parli
+  state: Maharashtra
+  zip_code: 431515
+  country: India
+  phone: +91 9403324332
 
 icon: fa-diamond # Font Awesome class for your site's icon
 remote_theme: andrewbanchich/dimension-jekyll-theme
 
 # Email show config
 
-# Research Links
-orcid:
-  url: https://orcid.org/0000-0001-5064-1760
-  show_on_home: true
-  show_in_contact: false
-googlescholar:
-  url: https://scholar.google.com/citations?user=gB4ZP1MAAAAJ
-  show_on_home: true
-  show_in_contact: false
-researchgate:
-  url: https://www.researchgate.net/profile/Rut-Vora
-  show_on_home: true
-  show_in_contact: false
-
 # Work Links
 github:
-  url: https://www.github.com/rutvora
+  url: https://github.com/sardaharsh
   show_on_home: true
-  show_in_contact: false
+  show_in_contact: true
 gitlab:
-  url:
-  show_on_home: true
+  url: ""
+  show_on_home: false
   show_in_contact: false
 linkedin:
-  url: https://www.linkedin.com/in/rutvora
+  url: https://www.linkedin.com/in/harsh-sarda-a01851239/
   show_on_home: true
-  show_in_contact: false
+  show_in_contact: true
 slack:
-  url:
-  show_on_home: true
+  url: ""
+  show_on_home: false
   show_in_contact: false
-blog:
-  url: https://rutvora.blogspot.com
+leetcode:
+  url: "https://leetcode.com/u/sardaharsh/"
   show_on_home: true
-  show_in_contact: false
-youtube:
-  url: https://www.youtube.com/channel/UCLaHH4xiZZADIYZ-SwTtY2w
-  show_on_home: true
-  show_in_contact: false
+  show_in_contact: true
 
 # Social Links
 facebook:
-  url:
+  url: ""
   show_on_home: false
-  show_in_contact: true
+  show_in_contact: false
 googleplus:
-  url:
+  url: ""
   show_on_home: false
-  show_in_contact: true
+  show_in_contact: false
 instagram:
-  url:
-  show_on_home: false
+  url: https://www.instagram.com/sarda.harsh/
+  show_on_home: true
   show_in_contact: true
 pinterest:
-  url:
+  url: ""
   show_on_home: false
-  show_in_contact: true
+  show_in_contact: false
 twitter:
-  url:
+  url: ""
   show_on_home: false
-  show_in_contact: true
+  show_in_contact: false
 
 # Build settings
 markdown: kramdown
 
 sass:
-style: compressed
+  style: compressed
+# # Work Timeline
+# work:
+#   - company: "Some company"
+#     details:
+#       - date: "October 2022"
+#         position: "Your position"
+#         description: "Some description"
+#       - date: "June 2022"
+#         position: "Different Position"
+#         description: "Different Description"
+#   - company: "Some other company"
+#     details:
+#       - date: "October 2020"
+#         position: "Your position"
+#         description: "Some description"
+#       - date: "June 2020"
+#         position: "Different Position"
+#         description: "Different Description"
 
-# Work Timeline
-work:
-  - company: "Some company"
-    details:
-      - date: "October 2022"
-        position: "Your position"
-        description: "Some description"
-      - date: "June 2022"
-        position: "Different Position"
-        description: "Different Description"
-  - company: "Some other company"
-    details:
-      - date: "October 2020"
-        position: "Your position"
-        description: "Some description"
-      - date: "June 2020"
-        position: "Different Position"
-        description: "Different Description"
-
-# Projects Timeline
-projects:
-  - type: "Research"
-    - title: "Project 1"
-      date: "Some date"
-      description: "Some description"
-      link: "https://github.com/rutvora/rutvora.github.io"
-    - title: "Project 2"
-      date: "Some other date"
-      description: "Some other description"
-
-  - type: "Development"
-    - title: "Project 3"
-      date: "Date"
-      description: "Decription 3"
+# # Projects Timeline
+# projects:
+#   - type: "Research"
+#     projects:
+#       - title: "Project 1"
+#         date: "Some date"
+#         description: "Some description"
+#         link: "https://github.com/rutvora/rutvora.github.io"
+#       - title: "Project 2"
+#         date: "Some other date"
+#         description: "Some other description"
+#   - type: "Development"
+#     projects:
+#       - title: "Project 3"
+#         date: "Date"
+#         description: "Description 3"
